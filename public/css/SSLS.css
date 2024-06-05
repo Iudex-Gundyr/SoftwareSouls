@@ -1,0 +1,427 @@
+
+    .footer {
+        background-color: rgba(0, 0, 0, 0.808);
+        color: #fff;
+        padding: 20px 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .footer-content {
+        text-align: center;
+    }
+    /* Estilos para el scrollbar en WebKit (Chrome, Safari) */
+    ::-webkit-scrollbar {
+    width: 12px; /* Ancho del scrollbar */
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background-color: rgba(36, 10, 10, 0.87); /* Color del thumb (la parte que puedes arrastrar) */
+    border-radius: 6px; /* Bordes redondeados del thumb */
+    }
+
+    ::-webkit-scrollbar-track {
+    background-color: #1e1e1e; /* Color del fondo del scrollbar (track) */
+    }
+
+    /* Estilos para el scrollbar en Firefox */
+    body {
+    scrollbar-color: rgba(36, 10, 10, 0.87) #1e1e1e; /* Color del thumb y track */
+    scrollbar-width: thin; /* Ancho del scrollbar */
+    }
+
+  h1{
+      text-align: center;
+  }
+  h3{
+      text-align: center;
+  }
+  .center-div {
+    display: flex;
+    position: block;
+    margin: auto;
+    margin-top: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+    height: auto; /* Cambiado a 'auto' para permitir altura dinámica según contenido */
+    background-color: rgba(36, 10, 10, 0.871);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row; /* Mantenido 'row' para alinear los elementos en una fila */
+    align-items: flex-start; /* Cambiado a 'flex-start' para alinear los elementos en la parte superior */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del eje principal con espacio entre ellos */
+    margin-bottom: 2%;
+  }
+  .center-div2 {
+      display: flex;
+    position: block;
+    margin: auto;
+    margin-top: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+    height: auto; /* Cambiado a 'auto' para permitir altura dinámica según contenido */
+    background-color: rgba(36, 10, 10, 0.871);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row; /* Mantenido 'row' para alinear los elementos en una fila */
+    align-items: flex-start; /* Cambiado a 'flex-start' para alinear los elementos en la parte superior */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del eje principal con espacio entre ellos */
+    margin-bottom: 2%;
+  }
+  .center-div3 {
+    display: flex;
+    position: block;
+    margin: auto;
+    margin-top: 100px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+    height: 325px; /* Cambiado a 'auto' para permitir altura dinámica según contenido */
+    background-color: rgba(36, 10, 10, 0.87);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row; /* Mantenido 'row' para alinear los elementos en una fila */
+    align-items: flex-start; /* Cambiado a 'flex-start' para alinear los elementos en la parte superior */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del eje principal con espacio entre ellos */
+    margin-bottom: 2%;
+  }
+  .izquierda {
+    margin-right: 10px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    margin-top: 16px;/* Agregado margen derecho para separar la izquierda de las derechas */
+  }
+  
+  .derecha {
+    width: 130%; /* Reducido el ancho para dejar espacio entre los divs de la derecha */
+    margin-top: 10px;
+    margin-right: 50px; /* Agregado margen superior para separar los divs de la derecha */
+  }
+  .imgP1 {
+      max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid transparent; /* Asegura que haya espacio para el borde */
+    transition: transform 0.3s ease;  /* Transición suave para el agrandamiento */
+    background-color: rgba(247, 244, 244, 0.87); /* Color rojizo oscuro */
+    filter: brightness(80%); /* Ajusta la luminosidad según sea necesario */
+  }
+  .imgP1:hover {
+    transform: scale(1.1);  /* Aumenta el tamaño al 105% del original */
+    border-color: rgba(0, 0, 0, 0.5); /* Color y opacidad del borde al pasar el mouse */
+  }
+  .imgP {
+  
+    max-width: 94%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid transparent; /* Asegura que haya espacio para el borde */
+    transition: transform 0.3s ease;  /* Transición suave para el agrandamiento */
+
+  }
+  .imgP:hover {
+    transform: scale(1.1);  /* Aumenta el tamaño al 105% del original */
+    border-color: rgba(0, 0, 0, 0.5); /* Color y opacidad del borde al pasar el mouse */
+  }
+  .imgP7 {
+  
+    max-width: 94%;
+    height: 400px;
+    width: 1100px;
+    border-radius: 10px;
+    border: 3px solid transparent; /* Asegura que haya espacio para el borde */
+    transition: transform 0.3s ease;  /* Transición suave para el agrandamiento */
+
+  }
+  .imgP7:hover {
+    transform: scale(1.1);  /* Aumenta el tamaño al 105% del original */
+    border-color: rgba(0, 0, 0, 0.5); /* Color y opacidad del borde al pasar el mouse */
+  }
+  
+  
+  .imgP3 {
+  
+  max-width: 94%;
+  height: 50%;
+  border-radius: 10px;
+  border: 3px solid transparent; /* Asegura que haya espacio para el borde */
+  transition: transform 0.3s ease;  /* Transición suave para el agrandamiento */
+  background-color: rgb(51, 0, 0); /* Color rojizo oscuro */
+  filter: brightness(80%); /* Ajusta la luminosidad según sea necesario */
+  }
+  .imgP3:hover {
+  transform: scale(1.1);  /* Aumenta el tamaño al 105% del original */
+  border-color: rgba(0, 0, 0, 0.5); /* Color y opacidad del borde al pasar el mouse */
+  }
+  
+  .imgP4 {
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid transparent; /* Asegura que haya espacio para el borde */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Añade la propiedad filter a la transición */
+  }
+  
+  /* Agrega filtro blanco */
+  .imgP4 {
+    filter: brightness(70%) grayscale(100%);
+  }
+  .imgP4:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al 105% del original */
+    filter: brightness(100%) grayscale(0%); /* Elimina el filtro al hacer hover */
+  }
+  
+  .bttn2 {
+    position: relative;
+    background-color: rgba(128, 0, 0, 0.87);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .bttn2:hover {
+    background-color: rgba(150, 0, 0, 1);
+    box-shadow: 0 0 10px rgba(229, 255, 0, 0.8);
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+  }
+  .center-div3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra los elementos horizontalmente */
+        height: 100%;
+      }
+  
+      .arriba {
+        margin-bottom: 10px; /* Espaciado entre "arriba" y "divs-abajo" */
+      }
+  
+      .divs-abajo {
+        display: flex;
+        width: 100%;
+      }
+  
+      .abajo {
+        
+        background-color:rgba(36, 10, 10, 0.87);;
+        flex: 1;
+      margin: 2%;
+        border: 0px solid #2e0505; /* Borde para visualizar mejor cada "abajo" */
+  
+        transition: transform 0.3s ease; /* Transición para el zoom al pasar el mouse */
+  
+      }
+  
+      .abajo:last-child {
+        margin-right: 0; /* Elimina el margen derecho del último "abajo" para evitar espacio extra */
+      }
+  
+      .abajo:hover {
+        transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+      }
+  
+      .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .footer {
+      background-color: rgba(0, 0, 0, 0.808);
+      color: #fff;
+      padding: 20px 0;
+  }
+  
+  .container {
+      width: 80%;
+      margin: 0 auto;
+  }
+  
+  .footer-content {
+      text-align: center;
+  }
+  
+  table {
+          border-collapse: collapse;
+          width: 100%;
+      }
+  
+      th, td {
+      border: 1px solid rgba(36, 10, 10, 0.871);
+      padding: 8px;
+      text-align: left;
+      max-width: 200px; /* Puedes ajustar este valor según tus necesidades */
+      word-wrap: break-word; /* Opcional: overflow-wrap: break-word; */
+      }
+      th {
+          background-color: rgba(36, 10, 10, 0.871);
+          color: white;
+  
+      }
+  
+      /* Efecto de iluminación al pasar el mouse */
+      td:hover, th:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+      }
+  
+      @media (max-width: 767px) {
+          .center-div {
+          width: 100%;
+          max-width: 400px;
+          margin: auto;
+          margin-top: 20px;
+          border-radius: 10px;
+          background-color: rgba(36, 10, 10, 0.871);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+          box-sizing: border-box;
+          margin-bottom: 20px;
+          }
+  
+          .izquierda {
+          margin: 10px;
+          }
+  
+          .derecha {
+          width: 100%;
+          margin-top: 10px;
+          margin-right: 0;
+          }
+  
+          .imgP {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+          border: 3px solid transparent;
+          transition: transform 0.3s ease;
+          background-color: rgba(247, 244, 244, 0.87);
+          filter: brightness(80%);
+          }
+  
+          .imgP:hover {
+          transform: scale(1.1);
+          border-color: rgba(0, 0, 0, 0.5);
+          }
+      }
+
+      @media (max-width: 767px) {
+          .center-div2 {
+              width: 100%;
+              max-width: 400px;
+              margin: auto;
+              margin-top: 20px;
+              border-radius: 10px;
+              background-color: rgba(36, 10, 10, 0.871);
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              padding: 20px;
+              box-sizing: border-box;
+              margin-bottom: 20px;
+          }
+          .izquierda {
+              display: none;
+          }
+          .derecha {
+              width: 100%;
+              margin-top: 10px;
+              margin-right: 0;
+          }
+          .imgP1 {
+              max-width: 100%;
+              height: auto;
+              border-radius: 10px;
+              border: 3px solid transparent;
+              transition: transform 0.3s ease;
+              background-color: rgba(247, 244, 244, 0.87);
+              filter: brightness(80%);
+          }
+  
+          .imgP1:hover {
+              transform: scale(1.1);
+              border-color: rgba(0, 0, 0, 0.5);
+          }
+  
+          .center-div2 h1,
+          .center-div2 h2,
+          .center-div2 p {
+              text-align: center;
+          }
+      }
+
+      .Moviles{
+          display: none;
+      }
+      @media (max-width: 767px) {
+          .nomovil{
+          display: none;
+          }
+          .Moviles{
+          display: flex;
+          }
+          .center-div3 {
+              width: 100%;
+              max-width: 400px;
+              margin: auto;
+              margin-top: 20px;
+              border-radius: 10px;
+              background-color: rgba(36, 10, 10, 0.871);
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              padding: 20px;
+              box-sizing: border-box;
+              margin-bottom: 20px;
+          }
+  
+      }
+  
+@keyframes fireAnimation {
+  0% {
+    color: red;
+    text-shadow: 0 0 10px yellow, 0 0 20px orange, 0 0 30px red;
+  }
+  50% {
+    color: orange;
+    text-shadow: 0 0 15px yellow, 0 0 25px red, 0 0 35px orange;
+  }
+  100% {
+    color: yellow;
+    text-shadow: 0 0 20px orange, 0 0 30px red, 0 0 40px yellow;
+  }
+}
+.sendEmail {
+    margin-left: 20%;
+    background-color: black;
+    text-align: center;
+    display: none;
+    animation: fireAnimation 2s linear infinite;
+    width: 60%
+}
