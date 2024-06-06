@@ -109,6 +109,9 @@
             <a href="https://www.linkedin.com/in/brayan-monroy-c/" target="_blank">
                 <img class="imgP4" src="{{ asset('img/linkedin.png') }}" alt="imgP4"/>
             </a>
+            <a href="https://github.com/Iudex-Gundyr" target="_blank">
+                <img class="imgP4" src="{{ asset('img/github.png') }}" alt="imgP4"/>
+            </a>
         </div>
         <div class="derecha">
             <div class="nomovil Moviles divmovil">
@@ -121,6 +124,10 @@
             <div class="nomovil Moviles divmovil">
                 <a href="https://www.linkedin.com/in/brayan-monroy-c/" target="_blank">
                     <img class="imgP4" src="{{ asset('img/linkedin.png') }}" alt="imgP4"/>
+                </a>
+
+                <a href="https://github.com/Iudex-Gundyr" target="_blank">
+                    <img class="imgP4" src="{{ asset('img/github.png') }}" alt="imgP4"/>
                 </a>
             </div>
             <h1>Deja tu mensaje</h1>
